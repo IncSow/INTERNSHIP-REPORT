@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- utile pour le responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site de mon rapport de stage au sein d'Accor SMI">
+    <title>Rapport de chtage</title>
+    <link rel="icon" href="favicon.jpg" />
+  
+    <!-- lien vers le style CSS -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- framework bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body class="darkmode">
+<div class="wonderfulCat mb-1 mt-2 text-center">
+    <div id='answer'>
+        <div id='chatbox'><p id="chatinput">J'étais chez le CSE d'Accor SMI dans le cadre de mon stage de première année! L'équipe du CSE SMI est responsable de négocier les avantages des employés : <br> - Les bonus annuels <br> - Plans de départs <br> - La billeterie à prix réduit <br> Et bien plus encore!</p></div>
+    </div>
+</div>
+<div id="pullinfo">
+  <div id="moreinfo">
+    <a href="more.html">Plus d'infos sur le déroulé de mon stage</a>
+    <a href="https://csesmi.fr/" target="_blank">Voir le site CSESMI</a>
+    <a href="https://fo.csavigny.fr/" target="_blank">Voir le site FO SMI réalisé en 3 heures</a>
+  </div>
+  <div onclick="pull()" id="puller">></div>
+</div>
+<div class="container">
+    <div class="row mt-1 mb-1">
+      <!-- <div class='col-3 d-flex justify-content-center'>
+        <button data-answer="J'étais chez le CSE d'Accor SMI! Ils sont responsable de négocier les avantages des employés : < - Les bonus annuels < - Plans de départs < - La billeterie à prix réduit < Et bien plus encore!" onclick="IsAlreadyClicked(this)">Présente moi ton entreprise!</button>
+      </div> -->
+      <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+        <button onclick="IsAlreadyClicked(this)" onclick="(this)" data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chakidor-1024x768.jpg)"data-answer="J'ai adoré! Les gens étaient super sympas et j'avais carte blanche sur le site : <- La technologie, l'apparence ... <Je devais être force de proposition!">Alors, ton stage?</button>
+      </div>
+      <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+        <button id ="mission" data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/whatadid.png)" data-answer="Mes missions étaient simples, je devais : < - Etudier le besoin puis créer le site csesmi.fr, il devait contenir une partie boutique et une partie actualité. < - Former les employés à la modification du site. < De plus, durant mon stage, on m'a proposé une mission en plus : Créer un site en une demi journée (fo.csavigny.fr) et gérer les réseaux sociaux de Force Ouvriere SMI!" onclick="IsAlreadyClicked(this)">C'était quoi tes missions?</button>
+      </div>
+      <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+        <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chatmecat-1024x768.jpg)" data-answer="Oui et non! J'ai adoré ma mission et le stage en général, mais je suis un peu déçu d'avoir dû utiliser WordPress pour créer le site, par manque de compétences en code brut. <De plus, vu que j'avais fini la refonte en avance, j'ai pu me former à l'utilisation des cookies, et la mise en place d'un mode nuit avec du js et BEAUCOUP de CSS!" onclick="IsAlreadyClicked(this)">T'as aimé?</button>
+    </div>
+    <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+        <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chaoupa-1024x768.jpg)" data-answer="J'ai pu rencontrer pas mal de gens super sympas et aimables!< On m'a offert le petit déjeuner et le repas du midi à chaque fois que j'étais en présentiel! < Je n'étais pas du tout traité comme un stagiaire, on rigolait entre nous, ils oubliaient parfois que je n'allais pas rester." onclick="IsAlreadyClicked(this)">Raconte des anecdotes!</button>
+    </div>
+
+        <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+            <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chadlagaler-1024x768.jpg)" data-answer=" - Quand j'ai formé des gens. Non pas du au fait que j'ai du mal à enseigner, mais plutôt parce que je ne m'attendais pas à devoir passer 30 minutes pour expliquer comment se créer un compte sur un site web... J'ai du m'adapter.< < - L'incendie chez OVH. J'ai perdu deux jours de travail dont l'ajout d'articles dans la boutique, la partie la plus ennuyante.< Cependant, ça m'a permit de voir un plan de relance d'urgence en action!" onclick="IsAlreadyClicked(this)">T'as eu des galères?</button>
+        </div>
+        <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+            <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/charich-1024x768.jpg)" data-answer="- Des revenus passifs! Ils ont décidé de me garder pour la maintenance du site! < - Des connexions ! J'ai présenté mon site devant l'administration et plusieurs personnes m'ont demandé des infos car elles étaient intéréssées. < - Enfin, j'arrive un peu mieux à voir ma valeur sur le marché du travail et les prix que je peux mettre sur mes créations." onclick="IsAlreadyClicked(this)">Et ça t'as apporté quoi?</button>
+        </div>
+        <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'>
+            <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chazeux-1024x768.jpg)" data-answer="J'ai pu proposer une maquette sur Adobe XD et parler des bonnes pratiques d'accessibilité grâce aux cours de WebDesign, mettre en place le WordPress et Elementor grâce aux cours de CMS et j'ai pu le personnaliser en profondeur grâce aux cours de code!" onclick="IsAlreadyClicked(this)">Ta formation à l'ESD t'a aidé?</button>
+        </div>
+        <div class='col-sm-3 col-6 mt-2 d-flex justify-content-center'  >
+            <button data-img="url(https://dsifrance.fr/wp-content/uploads/2021/05/chadureveil-1024x768.jpg)" data-answer="J'ai hâte d'assister au projet vidéo et d'apprendre plus de choses en code!" onclick="IsAlreadyClicked(this)" onclick="back_esd()">Et ton retour à l'ESD?</button>
+        </div>
+    </div>
+    <div class="row mt-3">
+      
+    </div>
+  </div>
+ <!-- Fred, si tu lis ça, t'es le meilleur prof mais j'ai le meilleur chat. -->
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,148 @@
+button{
+    width: 90%;
+    height: 77px;
+    /* color: #050033; */
+    color: #D8CEBC;
+    border: 2px black !important;
+    background: linear-gradient( rgba(119, 140, 165, 0.4),  rgba(119, 140, 165, 0.6));
+    border-radius: 10px !important;
+    font-size: auto;
+}
+button:hover{
+    background-color: rgba(132, 22, 47, 0.8);
+    transform: scale(1.1);
+    color: #D8CEBC;
+}
+
+.wonderfulCat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#answer{
+    border-radius: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 62vh;
+    text-align: center;
+    margin-top:1%;
+    font-size: 1rem;
+    padding: 10px;
+    color: #FFD280;
+    background-image: url(https://dsifrance.fr/wp-content/uploads/2021/05/entre-1024x768.jpg);
+    /* background-image: url(/chakidor.jpg); */
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+
+
+.container{
+    backdrop-filter: blur(4px);
+}
+
+
+#answer{
+    color: #050033;
+    background-image: url(/entre.jpg);
+    border: 1px solid #CC4C34;
+}
+
+body{
+    background: url("https://csesmi.fr/wp-content/uploads/2021/03/accorbanniere-gris.png") !important;
+}
+
+button{
+    color: #050033 !important;
+    background: linear-gradient( rgba(132, 22, 47, 0.2),  rgba(132, 22, 47, 0.4)) !important;
+}
+
+button:hover{
+    color: #050033 !important;
+    background: linear-gradient( rgba(119, 140, 165, 0.4), rgba(119, 140, 165, 0.6)) !important;
+}
+
+#chatbox{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    background:rgba(132, 22, 47, .80);
+    color: #3cbbe2;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#moreinfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-left:10px;
+    
+}
+
+#moreinfo a{
+    color: #FFD280;
+    text-decoration: 0;
+}
+#moreinfo a:hover{
+    color: #A88054;
+    text-decoration: underline 0.5px;
+}
+
+#puller{
+    z-index: 99999;
+    font-size: 3rem;
+    padding-right: 5px;
+    margin:0;
+    background-color: #050033;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #FFD280;
+}
+
+
+
+
+#pullinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: -295px;
+    top: 10%;
+    background: #050033;    
+    transition: 0.8s;
+    padding: auto;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#chatbox p{
+    margin-bottom: 0;
+}

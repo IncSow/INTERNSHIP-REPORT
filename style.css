@@ -1,0 +1,31 @@
+.main-subject{
+    background-color: #050033;
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+h2{
+    color: #B88D5B;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+h3{
+    color: #CC4C3C;
+}
+
+p{
+    color: #FFD280;
+    font-size: 1.25rem;
+}
+
+.col{
+    margin-left: 2%;
+}
